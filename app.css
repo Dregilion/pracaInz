@@ -17,3 +17,39 @@ h1{
 main{
     padding: 20px;
 }
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+article{
+    
+    margin: 10px;
+    padding: 20px;
+    background: rgba(0,0,0,0.75);
+    background: linear-gradient(to right top, rgba(0,0,0,0.75), rgba(0,0,0,0.25));
+    border-radius: 20px;
+}
+
+article p{
+    text-align: justify;
+}
+
+#to-top {
+    position: fixed;
+    background-color: #9fbeec4b;
+    border-radius: 50%;
+    border-color: #0d6efd;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+    
+   
+}
+
