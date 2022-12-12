@@ -6,12 +6,6 @@ body {
 	background-color: #fff;
 }
 
-/*
-.navbar-nav {
-	position: fixed;
-	top: 0;
-}
-*/
 
 main {
 	display: flex;
@@ -25,6 +19,7 @@ main {
 
 h1 {
 	text-align: center;
+    margin-top: 55px;
 	padding: 20px;
 }
 
@@ -78,4 +73,10 @@ section.author {
 .img-logo {
 	height: 50%;
 	width: 50%;
+}
+
+@media (max-width: 420px) {
+    h1{
+        margin-top: 18%;
+    }
 }
