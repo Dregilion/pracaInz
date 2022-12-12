@@ -1,81 +1,81 @@
-body{
-    background-color: #f0f2f5;
+body {
+	background-color: #f0f2f5;
 }
 
-#card{
-    background-color: #fff;
-}
-main{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 10px;
-    gap: 10px 20px; 
-    row-gap: 10px;
-    column-gap: 20px;
+#card {
+	background-color: #fff;
 }
 
+/*
+.navbar-nav {
+	position: fixed;
+	top: 0;
+}
+*/
 
-h1{
-    text-align: center;
-    padding: 20px;
+main {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 10px;
+	gap: 10px 20px;
+	row-gap: 10px;
+	column-gap: 20px;
 }
 
-main{
-    padding: 20px;
+h1 {
+	text-align: center;
+	padding: 20px;
 }
 
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
+main {
+	padding: 20px;
 }
 
-h3{
-    text-align: center;
+h1 {
+	text-align: center;
 }
-article{
-    margin: 10px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-
+h2 {
+	text-align: center;
 }
 
-article p{
-    text-align: justify;
+h3 {
+	text-align: center;
+}
+article {
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+article p {
+	text-align: justify;
 }
 
 #to-top {
-    position: fixed;
-    background-color: #9fbeec4b;
-    border-radius: 50%;
-    border-color: #0d6efd;
-    color: white;
-    bottom: 10px;
-    right: 10px;
-    
-   
+	position: fixed;
+	background-color: #9fbeec4b;
+	border-radius: 50%;
+	border-color: #0d6efd;
+	color: white;
+	bottom: 10px;
+	right: 10px;
 }
 
-footer{
-
-    background-color: #212529;
-    color: rgba(255, 255, 255, 0.55);
-    padding: 1.5rem;
-    text-align: center;
+footer {
+	background-color: #212529;
+	color: rgba(255, 255, 255, 0.55);
+	padding: 1.5rem;
+	text-align: center;
 }
 
 section.author {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
-.img-logo{
-    height: 50%;
-    width: 50%;
+.img-logo {
+	height: 50%;
+	width: 50%;
 }
-
-
-
