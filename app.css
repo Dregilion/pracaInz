@@ -1,11 +1,16 @@
 body {
-	background-color: #f0f2f5;
+	background: rgb(65, 155, 255);
+	background: linear-gradient(
+		0deg,
+		rgba(65, 155, 255, 1) 0%,
+		rgba(0, 0, 31, 1) 100%
+	);
+	background-attachment: fixed;
 }
 
 #card {
 	background-color: #fff;
 }
-
 
 main {
 	display: flex;
@@ -19,8 +24,9 @@ main {
 
 h1 {
 	text-align: center;
-    margin-top: 55px;
+	margin-top: 55px;
 	padding: 20px;
+	color: #fff;
 }
 
 main {
@@ -38,8 +44,9 @@ h3 {
 	text-align: center;
 }
 article {
-	margin: 10px;
-	padding: 20px;
+	height: 100vh;
+	margin: 50px;
+	padding: 50px;
 	background-color: #fff;
 	border-radius: 5px;
 }
@@ -76,7 +83,7 @@ section.author {
 }
 
 @media (max-width: 420px) {
-    h1{
-        margin-top: 18%;
-    }
+	h1 {
+		margin-top: 18%;
+	}
 }
