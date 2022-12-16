@@ -14,6 +14,7 @@ body {
 
 main {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-content: flex-start;
 	gap: 10px;
@@ -21,6 +22,13 @@ main {
 	row-gap: 10px;
 	column-gap: 20px;
 }
+/*
+
+.carousel {
+	display: flex;
+	flex-direction: row;
+}
+*/
 
 h1 {
 	text-align: center;
@@ -85,4 +93,18 @@ section.author {
 	h1 {
 		margin-top: 18%;
 	}
+/*
+	main {
+		width: 420px;
+	}
+	*/
+	
+/*
+	.carousel {
+		display: flex;
+		flex-direction: row;
+		
+	}
+*/
+
 }
