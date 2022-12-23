@@ -56,6 +56,7 @@ article {
 	padding: 30px;
 	background-color: #fff;
 	border-radius: 5px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 article p {
@@ -87,6 +88,9 @@ section.author {
 .img-logo {
 	height: 50%;
 	width: 50%;
+}
+table{
+	background-color: #fff;
 }
 
 @media (max-width: 420px) {
