@@ -1,11 +1,12 @@
 body {
-	background: rgb(65, 155, 255);
+	background-color: GhostWhite;
+	/* background: rgb(65, 155, 255);
 	background: linear-gradient(
 		0deg,
 		rgba(65, 155, 255, 1) 0%,
 		rgba(0, 0, 31, 1) 100%
 	);
-	background-attachment: fixed;
+	background-attachment: fixed; */
 }
 
 #card {
@@ -14,7 +15,7 @@ body {
 
 main {
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
 	flex-wrap: wrap;
 	align-content: flex-start;
 	gap: 10px;
@@ -34,7 +35,7 @@ h1 {
 	text-align: center;
 	margin-top: 55px;
 	padding: 20px;
-	color: #fff;
+	color: black;
 }
 
 main {
