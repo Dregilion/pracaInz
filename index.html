@@ -46,57 +46,117 @@
   <h1>Porównywane rozwiązania chmurowe</h1>
 
   <main>
+    <div id="carousel-body">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+             <!-- kontent dla 1 slajdu-->
+            <div class="card-carousel">
+           
+              <div class="card" style="width: 30rem;">
+                <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
+                <div class="card-body">
+                  <h5 class="card-title">Przechowywanie danych w chmurze</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
+                  <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
+              <div class="card" style="width: 30rem;">
+                <img src="/img/postgresql-icon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
+                  <a href="database-postgresql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
 
-    <!--  Karuzela  -->
-    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card" style="width: 18rem;">
-            <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
-            <div class="card-body">
-              <h5 class="card-title">Przechowywanie danych w chmurze</h5>
-              <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
-              <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
-            <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
-            <div class="card-body">
-              <h5 class="card-title">Przechowywanie danych w chmurze</h5>
-              <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
-              <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
-            <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
-            <div class="card-body">
-              <h5 class="card-title">Przechowywanie danych w chmurze</h5>
-              <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
-              <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div> -->
+              <div class="card" style="width: 30rem;">
+                <img src="/img/MySQL.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
+                  <a href="/database-mysql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
 
-<!-- Zwykłe karty -->
+              <div class="card" style="width: 30rem;">
+                <img src="/img/SQL-Server-Logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SQL Server w chmurze</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
+                  <a href="/sql-server.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+             <!-- kontent dla 2 slajdu-->
+            <div class="card-carousel">
+              <div class="card" style="width: 25rem;">
+                <img src="/img/postgresql-icon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
+                  <a href="database-postgresql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="/img/MySQL.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
+                  <a href="/database-mysql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="/img/SQL-Server-Logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SQL Server w chmurze</h5>
+                  <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
+                  <a href="/sql-server.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+         </div>
+
+         <!-- Przyciski lewo-prawo
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>-->
+      </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Zwykłe karty 
 
     <div class="card" style="width: 18rem;">
       <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
@@ -142,7 +202,7 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-
+-->
     <article>
       <h2 id="section-2">Czym są rozwiązania chmurowe?</h2>
       <p>Rozwiązania systemowe realizowane w postaci chmury to nowy trend, który dostarcza więcej możliwości w
@@ -154,23 +214,66 @@
         mogą trzymane być różnorodne dane, dostępne w każdym momencie, bez konieczności dbania przez organizację o
         licencje, administrację serwerami czy też zasoby sprzętowe, co ma niebagatelne znaczenie w dobie trudności
         związanych z epidemią COVID-19.</p>
-      <h3>Chmura Publiczna</h3>
-      <p>W tym przypadku usługodawca oferuje dostęp do wspólnych zasobów każdemu – usługi skierowane są do ogółu
-        społeczeństwa lub konkretnych branż, co wpływa pozytywnie na koszt całego rozwiązania, a dane są dostępne za
-        pośrednictwem publicznego Internetu.</p>
-      <h3>Chmura prywatna</h3>
+    
+    <div id="cloud-card">
+
+          <div class="card" style="width: 20rem;">
+            <div class="card-body">
+              <h3 class="card-title">Chmura Publiczna</h3>
+              <p class="card-text">W tym przypadku usługodawca oferuje dostęp do wspólnych zasobów każdemu – usługi skierowane są do ogółu
+                społeczeństwa lub konkretnych branż, co wpływa pozytywnie na koszt całego rozwiązania, a dane są dostępne za
+                pośrednictwem publicznego Internetu.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <div class="card-body">
+              <h3 class="card-title">Chmura prywatna</h3>
+              <p class="card-text">Zwana również wewnętrzną lub korporacyjną – usługodawca zapewnia możliwość dostępu do usługi za pośrednictwem
+                Internetu lub prywatnej sieci wewnętrznej wyłącznie wybranym użytkownikom, czy też w ramach organizacji.
+                Zasoby są wykorzystywane wyłącznie przez tą organizację, co zwiększa bezpieczeństwo, ale również może być
+                konieczne w przypadku takich organizacji jak Banki – dzięki chmurze prywatnej dane są przechowywane zgodnie z
+                wymogami prawa bankowego oraz obostrzeniami KNF.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h3 class="card-title">Chmura chybrydowa</h3>
+            <p class="card-text">Jest to połączenie dwóch poprzednich rodzajów – część danych przechowywana jest w chmurze prywatnej, a w
+              momencie większego zapotrzebowania na usługi lub wynikającego z modelu biznesowego można skorzystać z chmury
+              publicznej. Dodatkowo w tym modelu można wykorzystać chmurę publiczną do przetwarzania danych o niższych
+              wymogach bezpieczeństwa, zaś dane wrażliwe lub krytyczne operacje biznesowe w ramach chmury prywatnej.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h3 class="card-title">Chmura społecznościowa</h3>
+          <p class="card-text">W tym modelu zasoby udostępniane są wyłącznie pomiędzy organizacjami, takimi jak instytucje rządowe</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+     <!--  <h3>Chmura prywatna</h3>
       <p>Zwana również wewnętrzną lub korporacyjną – usługodawca zapewnia możliwość dostępu do usługi za pośrednictwem
         Internetu lub prywatnej sieci wewnętrznej wyłącznie wybranym użytkownikom, czy też w ramach organizacji.
         Zasoby są wykorzystywane wyłącznie przez tą organizację, co zwiększa bezpieczeństwo, ale również może być
         konieczne w przypadku takich organizacji jak Banki – dzięki chmurze prywatnej dane są przechowywane zgodnie z
         wymogami prawa bankowego oraz obostrzeniami KNF.</p>
+
       <h3>Chmura chybrydowa</h3>
       <p>Jest to połączenie dwóch poprzednich rodzajów – część danych przechowywana jest w chmurze prywatnej, a w
         momencie większego zapotrzebowania na usługi lub wynikającego z modelu biznesowego można skorzystać z chmury
         publicznej. Dodatkowo w tym modelu można wykorzystać chmurę publiczną do przetwarzania danych o niższych
         wymogach bezpieczeństwa, zaś dane wrażliwe lub krytyczne operacje biznesowe w ramach chmury prywatnej.</p>
+
       <h3>Chmura społecznościowa</h3>
-      <p>W tym modelu zasoby udostępniane są wyłącznie pomiędzy organizacjami, takimi jak instytucje rządowe</p>
+      <p>W tym modelu zasoby udostępniane są wyłącznie pomiędzy organizacjami, takimi jak instytucje rządowe</p>-->
     </article>
 
     <article>

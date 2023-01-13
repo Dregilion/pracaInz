@@ -29,16 +29,7 @@
             <a class="nav-link" href="/w-jaki-sposób-porównywane-są-rozwiązania-chmurowe.html">W jaki sposób są porównywane rozwiania chmurowe</a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Informacje
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#section-2">Czym są rozwiązania chmurowe?</a></li>
-              <li><a class="dropdown-item" href="#section-3">Zastosowanie rozwiązań chmurowych</a></li>
-              <li><a class="dropdown-item" href="#section-4">Dostawcy i odbiorcy rozwiązań chmurowych</a></li>
-            </ul>
-          </li>
+         
         </ul>
       </div>
     </div>
@@ -48,9 +39,11 @@
 
       <article>
         <h2>Wybrane firmy oraz warianty do porównania</h2>
-        <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z relacyjnymi bazami danych w chmurze i nazywa się Cloud SQL. </p>
-        <p><b>Firma Amazon</b> posiada szeroki wachlarz rozwiązań związany z bazami danych w chmurze. W ofercie widnieje kilka rozwiązań takich jak: Amazon Aurora MySQL-Compatible, Amazon Aurora PostgreSQL-Compatible DB, Amazon RDS for MySQ oraz Amazon RDS on AWS Outposts. Do naszego zestawienia został wybrany wariant Amazon Aurora MySQL-Compatible.</p>
-        <p><b>Firma Microsoft Azure</b> tak samo jak firma Amazon posiada w asortymencie kilka wariantów związanych z przechowywaniem danych w chmurze (np. Azure Cosmos DB, Azure SQL Database, Azure Database for MariaDB ). Dla naszego porównania został wybrany wariant Azure Database for MySQL.</p>
+        <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z serwerami SQL i nazywa się Cloud SQL for SQL Server. </p>
+        <p><b>Firma Amazon</b> posiada dwa warianty dla serwerów SQL - Amazon RDS for SQL Server oraz Amazon RDS Custom for SQL Server. Do porównania został wybrany Amazon RDS for SQL Server. </p>
+        <p><b>Firma Microsoft Azure</b> nie została wybrana do podanego zestawienia ze względu na brak możliwości porównania z innymi firmami wynikającej z wersji SQL Server - posiada tylko możliwość obsługi SQL Server z 2016 roku</p>
+        <p>W porównaniu także zabrakło firmy IBM ze względu na posiadania dopiero w wersji beta kalkulatora w wersji on-line bez możliwość sprawdzenia cen.</p>
+        
         
         <p>Warto napomnieć, że firmy Amazon oraz Google w zaprezentowanych kalkulatorach posiadają wszystkie dane dostępne w jednym miejsu, natomiast firma Miscrosoft Azure przy sprawdzeniu poszczególnego wariantu maszyny trzeba weryfikować dane na innej podstronie, która nie jest umieszczona bezpośrednio na kalkulatorze co początkowo utrudnia i wydłuża czas potrzebny do podjęcia decyzji związanej z wyborem wariantu. Dodatkowym atutem firmy Google jest możliwość wbrania opcji customowej odnośnie wariantu co ułatwia dobranie odpowiednich dla potrzeb rozwiązań</p>
         <p>Poniżej ukazane jest zestawienie w formie tabeli firm świadczących usługi przechowywania danych w chmurze. </p>
@@ -62,6 +55,7 @@
                 <th scope="col">Nazwa firmy</th>
                 <th scope="col">Nazwa usługi</th>
                 <th scope="col">Wybrany wariant</th>
+                <th scope="col">Wersja SQL Server</th>
                 <th scope="col">Opis maszyny</th>
                 <th scope="col">Ilość przechowywanych danych</th>
                 <th scope="col">J.M.</th>
@@ -74,66 +68,60 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Google Cloud</td>
-                <td>Cloud SQL for PostgreSQL</td>
-                <td>Custom</td>
-                <td>vCPUs 1, RAM: 4 GiB</td>
-                <td>250</td>
+                <td>Cloud SQL for SQL Server</td>
+                <td>db-standard-2</td>
+                <td>SQL Server 2017/2019 standard</td>
+                <td>vCPUs 2, RAM: 7,5GiB</td>
+                <td>500</td>
                 <td>GiB</td>
-                <td>123,94</td>
+                <td>600,01</td>
                 <td>USD</td>
                 <td>Co miesiąc</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>Google Cloud</td>
-                <td>Cloud SQL for PostgreSQL</td>
-                <td>Custom</td>
-                <td>vCPUs 2, RAM: 10GiB</td>
-                <td>500</td>
+                <td>Cloud SQL for SQL Server</td>
+                <td>db-standard-2</td>
+                <td>SQL Server 2017/2019 standard</td>
+                <td>vCPUs 4, RAM: 15GiB</td>
+                <td>750</td>
                 <td>GiB</td>
-                <td>187,74</td>
+                <td>769,41</td>
                 <td>USD</td>
                 <td>Co miesiąc</td>
               </tr>
                 <th scope="row">3</th>
                 <td>Amazon</td>
-                <td>Amazon Aurora PostgreSQL</td>
-                <td>db.t3.medium</td>
-                <td>vCPUs 2, RAM: 4GiB</td>
-                <td>250</td>
+                <td>Amazon RDS for SQL Server</td>
+                <td>db.m3.large</td>
+                <td>SQL Server 2017/2019 standard</td>
+                <td>vCPUs 2, RAM: 7,5GiB</td>
+                <td>500</td>
                 <td>GiB</td>
-                <td>126,69</td>
+                <td>703,60</td>
                 <td>USD</td>
                 <td>Co miesiąc</td>
               </tr>
-                <th scope="row">4</th>
+              <th scope="row">4</th>
                 <td>Amazon</td>
-                <td>Amazon Aurora PostgreSQL</td>
-                <td>db.t3.large</td>
-                <td>vCPUs 2, RAM: 8GiB</td>
+                <td>Amazon RDS for SQL Server</td>
+                <td>db.m3.xlarge</td>
+                <td>SQL Server 2017/2019 standard</td>
+                <td>vCPUs 4, RAM: 15GiB</td>
                 <td>500</td>
                 <td>GiB</td>
-                <td>226,52</td>
+                <td>1 164,90</td>
                 <td>USD</td>
                 <td>Co miesiąc</td>
               </tr>
-                <th scope="row">5</th>
-                <td>Microsoft Azure</td>
-                <td>Azure Database for PostgreSQL</td>
-                <td>Gen 5, 2 vCore</td>
-                <td>vCPUs 2, RAM: 10GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>232,48/td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-              
-              
+
         </table>
       <article>
         <h2>Podsumowanie</h2>
-      
+        <p>Ponownie w zestawieniu pierwsze miejsce zajmuje firma Google posiadającą niewielką różnce przy słabszych sprzętach. Natomiast przy konfiguracji sprzętowej o lepszych parametrach firma Amazon odstaje znacząco od firmy Google.</p>
+        <p>Jednym z przewag firmy Amazon nad firmą Google jest fakt posiadania wiekszej ilości możliwość doboru wariantów sprzętowych predefinowanych w kalkulatorze. Kolejnym autem firmy Amazon jest możlwość wboru mocniejszej konfiguracji sprzętowej nawet w ramach predefiniowanych opcji kalkulatora cen on-line.</p>
+        <p>Plusem firmy Google jest możliwość wybrania opcji Custom do uzyskania potrzebnych do swojego wykorzystania wariantów sprzętowych. Niestety w porównaniu do firmy Amazon warianty predefiniowane w kalkulatorze cen posiadają mała ilość gotowych standarów sprzętowych.</p>
       </article>
 
  </main>

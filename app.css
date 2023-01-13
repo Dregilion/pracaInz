@@ -23,13 +23,6 @@ main {
 	row-gap: 10px;
 	column-gap: 20px;
 }
-/*
-
-.carousel {
-	display: flex;
-	flex-direction: row;
-}
-*/
 
 h1 {
 	text-align: center;
@@ -61,7 +54,15 @@ article {
 	border-radius: 5px;
 	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-
+#cloud-card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+#cloud-card div{
+	margin: 10px;
+}
 article p {
 	text-align: justify;
 }
@@ -77,6 +78,8 @@ article p {
 }
 
 footer {
+	position: relative;
+	bottom: 0;
 	background-color: #212529;
 	color: rgba(255, 255, 255, 0.55);
 	padding: 1.5rem;
@@ -95,6 +98,36 @@ section.author {
 table{
 	background-color: #fff;
 }
+
+article ul li{
+	text-align: left;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color:var(--bs-body-color);
+}
+/* karuzela */
+#carousel-body{
+	width: 100%;
+	
+}
+.card-carousel{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card-carousel div{
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+#carouselExampleDark{
+ padding: 30px;
+}
+
 
 @media (max-width: 420px) {
 	h1 {
