@@ -54,17 +54,22 @@ article {
 	border-radius: 5px;
 	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-#cloud-card{
+.flex-cards{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	
 }
-#cloud-card div{
+.flex-cards div{
 	margin: 10px;
+}
+.flex-cards div img{
+	max-height: 232px;
+	
 }
 article p {
 	text-align: justify;
+	
 }
 
 #to-top {
@@ -124,6 +129,10 @@ ul li a{
 	flex-wrap: wrap;
 	
 }
+.card-carousel .card img{
+max-height: 220px;
+}
+
 #carouselExampleDark{
  padding: 30px;
 }
