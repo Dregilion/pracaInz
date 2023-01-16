@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Porównywarka rozwiązań chmurowych</title>
+  <link rel="icon" href="img/Cloud.ico" type="image/icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -26,110 +27,131 @@
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/w-jaki-sposób-porównywane-są-rozwiązania-chmurowe.html">W jaki sposób są porównywane rozwiania chmurowe</a>
+            <a class="nav-link" href="/w-jaki-sposób-porównywane-są-rozwiązania-chmurowe.html">W jaki sposób są
+              porównywane rozwiania chmurowe</a>
           </li>
 
-         
+
         </ul>
       </div>
     </div>
   </nav>
   <div id="banner">
-   <h1>Porównanie cen firm świadczących usługi bazy serwera SQL w chmurze</h1>
+    <h1>Porównanie cen firm świadczących usługi bazy serwera SQL w chmurze</h1>
   </div>
-  
+
   <main>
-   
 
-      <article>
-        <h2>Wybrane firmy oraz warianty do porównania</h2>
-        <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z serwerami SQL i nazywa się Cloud SQL for SQL Server. </p>
-        <p><b>Firma Amazon</b> posiada dwa warianty dla serwerów SQL - Amazon RDS for SQL Server oraz Amazon RDS Custom for SQL Server. Do porównania został wybrany Amazon RDS for SQL Server. </p>
-        <p><b>Firma Microsoft Azure</b> nie została wybrana do podanego zestawienia ze względu na brak możliwości porównania z innymi firmami wynikającej z wersji SQL Server - posiada tylko możliwość obsługi SQL Server z 2016 roku</p>
-        <p>W porównaniu także zabrakło firmy IBM ze względu na posiadania dopiero w wersji beta kalkulatora w wersji on-line bez możliwość sprawdzenia cen.</p>
-        
-        
-        <p>Warto napomnieć, że firmy Amazon oraz Google w zaprezentowanych kalkulatorach posiadają wszystkie dane dostępne w jednym miejsu, natomiast firma Miscrosoft Azure przy sprawdzeniu poszczególnego wariantu maszyny trzeba weryfikować dane na innej podstronie, która nie jest umieszczona bezpośrednio na kalkulatorze co początkowo utrudnia i wydłuża czas potrzebny do podjęcia decyzji związanej z wyborem wariantu. Dodatkowym atutem firmy Google jest możliwość wbrania opcji customowej odnośnie wariantu co ułatwia dobranie odpowiednich dla potrzeb rozwiązań</p>
-        <p>Poniżej ukazane jest zestawienie w formie tabeli firm świadczących usługi przechowywania danych w chmurze. </p>
-      </article>
-        <table class="table table-striped table-hover table-bordered">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Nazwa firmy</th>
-                <th scope="col">Nazwa usługi</th>
-                <th scope="col">Wybrany wariant</th>
-                <th scope="col">Wersja SQL Server</th>
-                <th scope="col">Opis maszyny</th>
-                <th scope="col">Ilość przechowywanych danych</th>
-                <th scope="col">J.M.</th>
-                <th scope="col">Cena</th>
-                <th scope="col">Waluta</th> 
-                <th scope="col">Płatność</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Google Cloud</td>
-                <td>Cloud SQL for SQL Server</td>
-                <td>db-standard-2</td>
-                <td>SQL Server 2017/2019 standard</td>
-                <td>vCPUs 2, RAM: 7,5GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>600,01</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Google Cloud</td>
-                <td>Cloud SQL for SQL Server</td>
-                <td>db-standard-2</td>
-                <td>SQL Server 2017/2019 standard</td>
-                <td>vCPUs 4, RAM: 15GiB</td>
-                <td>750</td>
-                <td>GiB</td>
-                <td>769,41</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-                <th scope="row">3</th>
-                <td>Amazon</td>
-                <td>Amazon RDS for SQL Server</td>
-                <td>db.m3.large</td>
-                <td>SQL Server 2017/2019 standard</td>
-                <td>vCPUs 2, RAM: 7,5GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>703,60</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-              <th scope="row">4</th>
-                <td>Amazon</td>
-                <td>Amazon RDS for SQL Server</td>
-                <td>db.m3.xlarge</td>
-                <td>SQL Server 2017/2019 standard</td>
-                <td>vCPUs 4, RAM: 15GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>1 164,90</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
 
-        </table>
-      <article>
-        <h2>Podsumowanie</h2>
-        <p>Ponownie w zestawieniu pierwsze miejsce zajmuje firma Google posiadającą niewielką różnce przy słabszych sprzętach. Natomiast przy konfiguracji sprzętowej o lepszych parametrach firma Amazon odstaje znacząco od firmy Google.</p>
-        <p>Jednym z przewag firmy Amazon nad firmą Google jest fakt posiadania wiekszej ilości możliwość doboru wariantów sprzętowych predefinowanych w kalkulatorze. Kolejnym autem firmy Amazon jest możlwość wboru mocniejszej konfiguracji sprzętowej nawet w ramach predefiniowanych opcji kalkulatora cen on-line.</p>
-        <p>Plusem firmy Google jest możliwość wybrania opcji Custom do uzyskania potrzebnych do swojego wykorzystania wariantów sprzętowych. Niestety w porównaniu do firmy Amazon warianty predefiniowane w kalkulatorze cen posiadają mała ilość gotowych standarów sprzętowych.</p>
-      </article>
+    <article class="reveal">
+      <h2>Wybrane firmy oraz warianty do porównania</h2>
+      <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z serwerami SQL i nazywa się Cloud SQL for SQL
+        Server. </p>
+      <p><b>Firma Amazon</b> posiada dwa warianty dla serwerów SQL - Amazon RDS for SQL Server oraz Amazon RDS Custom
+        for SQL Server. Do porównania został wybrany Amazon RDS for SQL Server. </p>
+      <p><b>Firma Microsoft Azure</b> nie została wybrana do podanego zestawienia ze względu na brak możliwości
+        porównania z innymi firmami wynikającej z wersji SQL Server - posiada tylko możliwość obsługi SQL Server z 2016
+        roku</p>
+      <p>W porównaniu także zabrakło firmy IBM ze względu na posiadania dopiero w wersji beta kalkulatora w wersji
+        on-line bez możliwość sprawdzenia cen.</p>
 
- </main>
- <footer>
+
+      <p>Warto napomnieć, że firmy Amazon oraz Google w zaprezentowanych kalkulatorach posiadają wszystkie dane dostępne
+        w jednym miejsu, natomiast firma Miscrosoft Azure przy sprawdzeniu poszczególnego wariantu maszyny trzeba
+        weryfikować dane na innej podstronie, która nie jest umieszczona bezpośrednio na kalkulatorze co początkowo
+        utrudnia i wydłuża czas potrzebny do podjęcia decyzji związanej z wyborem wariantu. Dodatkowym atutem firmy
+        Google jest możliwość wbrania opcji customowej odnośnie wariantu co ułatwia dobranie odpowiednich dla potrzeb
+        rozwiązań</p>
+      <p>Poniżej ukazane jest zestawienie w formie tabeli firm świadczących usługi przechowywania danych w chmurze. </p>
+    </article>
+
+    <article class="reveal">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Nazwa firmy</th>
+            <th scope="col">Nazwa usługi</th>
+            <th scope="col">Wybrany wariant</th>
+            <th scope="col">Wersja SQL Server</th>
+            <th scope="col">Opis maszyny</th>
+            <th scope="col">Ilość przechowywanych danych</th>
+            <th scope="col">J.M.</th>
+            <th scope="col">Cena</th>
+            <th scope="col">Waluta</th>
+            <th scope="col">Płatność</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Google Cloud</td>
+            <td>Cloud SQL for SQL Server</td>
+            <td>db-standard-2</td>
+            <td>SQL Server 2017/2019 standard</td>
+            <td>vCPUs 2, RAM: 7,5GiB</td>
+            <td>500</td>
+            <td>GiB</td>
+            <td>600,01</td>
+            <td>USD</td>
+            <td>Co miesiąc</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Google Cloud</td>
+            <td>Cloud SQL for SQL Server</td>
+            <td>db-standard-2</td>
+            <td>SQL Server 2017/2019 standard</td>
+            <td>vCPUs 4, RAM: 15GiB</td>
+            <td>750</td>
+            <td>GiB</td>
+            <td>769,41</td>
+            <td>USD</td>
+            <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">3</th>
+          <td>Amazon</td>
+          <td>Amazon RDS for SQL Server</td>
+          <td>db.m3.large</td>
+          <td>SQL Server 2017/2019 standard</td>
+          <td>vCPUs 2, RAM: 7,5GiB</td>
+          <td>500</td>
+          <td>GiB</td>
+          <td>703,60</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">4</th>
+          <td>Amazon</td>
+          <td>Amazon RDS for SQL Server</td>
+          <td>db.m3.xlarge</td>
+          <td>SQL Server 2017/2019 standard</td>
+          <td>vCPUs 4, RAM: 15GiB</td>
+          <td>500</td>
+          <td>GiB</td>
+          <td>1 164,90</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+
+      </table>
+    </article>
+
+    <article class="reveal">
+      <h2>Podsumowanie</h2>
+      <p>Ponownie w zestawieniu pierwsze miejsce zajmuje firma Google posiadającą niewielką różnce przy słabszych
+        sprzętach. Natomiast przy konfiguracji sprzętowej o lepszych parametrach firma Amazon odstaje znacząco od firmy
+        Google.</p>
+      <p>Jednym z przewag firmy Amazon nad firmą Google jest fakt posiadania wiekszej ilości możliwość doboru wariantów
+        sprzętowych predefinowanych w kalkulatorze. Kolejnym autem firmy Amazon jest możlwość wboru mocniejszej
+        konfiguracji sprzętowej nawet w ramach predefiniowanych opcji kalkulatora cen on-line.</p>
+      <p>Plusem firmy Google jest możliwość wybrania opcji Custom do uzyskania potrzebnych do swojego wykorzystania
+        wariantów sprzętowych. Niestety w porównaniu do firmy Amazon warianty predefiniowane w kalkulatorze cen
+        posiadają mała ilość gotowych standarów sprzętowych.</p>
+    </article>
+
+  </main>
+  <footer>
     <section class="info">
       <p>Wykonany projekt jest formą pracy inżynierskiej i stanowi jej nieodłączny element.</p>
     </section>
@@ -140,17 +162,18 @@
     </section>
     <p>Copyright &copy; 2023 All rights reserved.</p>
   </footer>
-      
-
-    
 
 
 
-   
-    <script src="main.js"></script>
+
+
+
+
+  <script src="main.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

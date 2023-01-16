@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Porównywarka rozwiązań chmurowych</title>
+  <link rel="icon" href="img/Cloud.ico" type="image/icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -26,7 +27,8 @@
             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/w-jaki-sposób-porównywane-są-rozwiązania-chmurowe.html">W jaki sposób są porównywane rozwiania chmurowe</a>
+            <a class="nav-link" href="/w-jaki-sposób-porównywane-są-rozwiązania-chmurowe.html">W jaki sposób są
+              porównywane rozwiania chmurowe</a>
           </li>
         </ul>
       </div>
@@ -36,113 +38,132 @@
     <h1>Porównanie cen firm świadczących usługi bazy danych MySQL w chmurze</h1>
   </div>
   <main>
-    
 
-      <article>
-        <h2>Wybrane firmy oraz warianty do porównania</h2>
-        <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z relacyjnymi bazami danych w chmurze i nazywa się Cloud SQL. </p>
-        <p><b>Firma Amazon</b> posiada szeroki wachlarz rozwiązań związany z bazami danych w chmurze. W ofercie widnieje kilka rozwiązań takich jak: Amazon Aurora MySQL-Compatible, Amazon Aurora PostgreSQL-Compatible DB, Amazon RDS for MySQ oraz Amazon RDS on AWS Outposts. Do naszego zestawienia został wybrany wariant Amazon Aurora MySQL-Compatible.</p>
-        <p><b>Firma Microsoft Azure</b> tak samo jak firma Amazon posiada w asortymencie kilka wariantów związanych z przechowywaniem danych w chmurze (np. Azure Cosmos DB, Azure SQL Database, Azure Database for MariaDB ). Dla naszego porównania został wybrany wariant Azure Database for MySQL.</p>
-        
-        <p>Warto napomnieć, że firmy Amazon oraz Google w zaprezentowanych kalkulatorach posiadają wszystkie dane dostępne w jednym miejsu, natomiast firma Miscrosoft Azure przy sprawdzeniu poszczególnego wariantu maszyny trzeba weryfikować dane na innej podstronie, która nie jest umieszczona bezpośrednio na kalkulatorze co początkowo utrudnia i wydłuża czas potrzebny do podjęcia decyzji związanej z wyborem wariantu. Dodatkowym atutem firmy Google jest możliwość wbrania opcji customowej odnośnie wariantu co ułatwia dobranie odpowiednich dla potrzeb rozwiązań</p>
-        <p>Poniżej ukazane jest zestawienie w formie tabeli firm świadczących usługi przechowywania danych w chmurze. </p>
-      </article>
-        <table class="table table-striped table-hover table-bordered">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Nazwa firmy</th>
-                <th scope="col">Nazwa usługi</th>
-                <th scope="col">Wybrany wariant</th>
-                <th scope="col">Opis maszyny</th>
-                <th scope="col">Ilość przechowywanych danych</th>
-                <th scope="col">J.M.</th>
-                <th scope="col">Cena</th>
-                <th scope="col">Waluta</th> 
-                <th scope="col">Płatność</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Google Cloud</td>
-                <td>Cloud SQL for MySQL</td>
-                <td>Custom</td>
-                <td>vCPUs 1, RAM: 4 GiB</td>
-                <td>250</td>
-                <td>GiB</td>
-                <td>87,74</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Google Cloud</td>
-                <td>Cloud SQL for MySQL</td>
-                <td>db-standard-2</td>
-                <td>vCPUs 2, RAM: 7.5GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>172,41</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-                <th scope="row">3</th>
-                <td>Amazon</td>
-                <td>Amazon Aurora MySQL-Compatible</td>
-                <td>db.t2.small</td>
-                <td>vCPUs 1, RAM: 2GiB</td>
-                <td>250</td>
-                <td>GiB</td>
-                <td>91,65</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-                <th scope="row">4</th>
-                <td>Amazon</td>
-                <td>Amazon Aurora MySQL-Compatible</td>
-                <td>db.t3.large</td>
-                <td>vCPUs 2, RAM: 8GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>226,52</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-                <th scope="row">5</th>
-                <td>Microsoft Azure</td>
-                <td>Azure Database for MySQL</td>
-                <td>B1MS</td>
-                <td>vCPUs 1, RAM: 4GiB</td>
-                <td>250</td>
-                <td>GiB</td>
-                <td>48,75</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-              </tr>
-                <th scope="row">6</th>
-                <td>Microsoft Azure</td>
-                <td>Azure Database for MySQL</td>
-                <td>B2MS2</td>
-                <td>vCPUs 2, RAM: 8GiB</td>
-                <td>500</td>
-                <td>GiB</td>
-                <td>184,67</td>
-                <td>USD</td>
-                <td>Co miesiąc</td>
-               </tr>
-              
-        </table>
-      <article>
-        <h2>Podsumowanie</h2>
-        <p>W podanym powyżej zestawieniu najbardziej korzystnie wypadła firma Google, która w porównaniu do firmy Amazon oraz Microsoft posiadała najlepsza ofertę cenową w porówaniu do świadczonych usług</p>
-        <p>Dodatkowym plusem firmy Google jest możliwośc ustawienia wariantu sprzętowego w wersji Custom co pozwala na dobranie sprzętu do swoich potrzeb</p>
-        <p>Firma IBM nie brała udziału w podanym zestawieniu ze względu na brak możliwości zebrania danych przez kalkulator cen on-line</p>
-        <p>Warto także podkreslić, że oferowane warianty związane z konfiguracją sprzętu od firmy Microsoft są bardzo ograniczone i posiadają mała ilość dostępnych gotowych wariantów sprzętowych</p>
-      </article>
 
- </main>
- <footer>
+    <article class="reveal">
+      <h2>Wybrane firmy oraz warianty do porównania</h2>
+      <p><b>Firma Google Cloud</b> posiada tylko jeden wariant związany z relacyjnymi bazami danych w chmurze i nazywa
+        się Cloud SQL. </p>
+      <p><b>Firma Amazon</b> posiada szeroki wachlarz rozwiązań związany z bazami danych w chmurze. W ofercie widnieje
+        kilka rozwiązań takich jak: Amazon Aurora MySQL-Compatible, Amazon Aurora PostgreSQL-Compatible DB, Amazon RDS
+        for MySQ oraz Amazon RDS on AWS Outposts. Do naszego zestawienia został wybrany wariant Amazon Aurora
+        MySQL-Compatible.</p>
+      <p><b>Firma Microsoft Azure</b> tak samo jak firma Amazon posiada w asortymencie kilka wariantów związanych z
+        przechowywaniem danych w chmurze (np. Azure Cosmos DB, Azure SQL Database, Azure Database for MariaDB ). Dla
+        naszego porównania został wybrany wariant Azure Database for MySQL.</p>
+
+      <p>Warto napomnieć, że firmy Amazon oraz Google w zaprezentowanych kalkulatorach posiadają wszystkie dane dostępne
+        w jednym miejsu, natomiast firma Miscrosoft Azure przy sprawdzeniu poszczególnego wariantu maszyny trzeba
+        weryfikować dane na innej podstronie, która nie jest umieszczona bezpośrednio na kalkulatorze co początkowo
+        utrudnia i wydłuża czas potrzebny do podjęcia decyzji związanej z wyborem wariantu. Dodatkowym atutem firmy
+        Google jest możliwość wbrania opcji customowej odnośnie wariantu co ułatwia dobranie odpowiednich dla potrzeb
+        rozwiązań</p>
+      <p>Poniżej ukazane jest zestawienie w formie tabeli firm świadczących usługi przechowywania danych w chmurze. </p>
+    </article>
+
+    <article class="reveal">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Nazwa firmy</th>
+            <th scope="col">Nazwa usługi</th>
+            <th scope="col">Wybrany wariant</th>
+            <th scope="col">Opis maszyny</th>
+            <th scope="col">Ilość przechowywanych danych</th>
+            <th scope="col">J.M.</th>
+            <th scope="col">Cena</th>
+            <th scope="col">Waluta</th>
+            <th scope="col">Płatność</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Google Cloud</td>
+            <td>Cloud SQL for MySQL</td>
+            <td>Custom</td>
+            <td>vCPUs 1, RAM: 4 GiB</td>
+            <td>250</td>
+            <td>GiB</td>
+            <td>87,74</td>
+            <td>USD</td>
+            <td>Co miesiąc</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Google Cloud</td>
+            <td>Cloud SQL for MySQL</td>
+            <td>db-standard-2</td>
+            <td>vCPUs 2, RAM: 7.5GiB</td>
+            <td>500</td>
+            <td>GiB</td>
+            <td>172,41</td>
+            <td>USD</td>
+            <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">3</th>
+          <td>Amazon</td>
+          <td>Amazon Aurora MySQL-Compatible</td>
+          <td>db.t2.small</td>
+          <td>vCPUs 1, RAM: 2GiB</td>
+          <td>250</td>
+          <td>GiB</td>
+          <td>91,65</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">4</th>
+          <td>Amazon</td>
+          <td>Amazon Aurora MySQL-Compatible</td>
+          <td>db.t3.large</td>
+          <td>vCPUs 2, RAM: 8GiB</td>
+          <td>500</td>
+          <td>GiB</td>
+          <td>226,52</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">5</th>
+          <td>Microsoft Azure</td>
+          <td>Azure Database for MySQL</td>
+          <td>B1MS</td>
+          <td>vCPUs 1, RAM: 4GiB</td>
+          <td>250</td>
+          <td>GiB</td>
+          <td>48,75</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+          <th scope="row">6</th>
+          <td>Microsoft Azure</td>
+          <td>Azure Database for MySQL</td>
+          <td>B2MS2</td>
+          <td>vCPUs 2, RAM: 8GiB</td>
+          <td>500</td>
+          <td>GiB</td>
+          <td>184,67</td>
+          <td>USD</td>
+          <td>Co miesiąc</td>
+          </tr>
+
+      </table>
+    </article>
+
+    <article class="reveal">
+      <h2>Podsumowanie</h2>
+      <p>W podanym powyżej zestawieniu najbardziej korzystnie wypadła firma Google, która w porównaniu do firmy Amazon
+        oraz Microsoft posiadała najlepsza ofertę cenową w porówaniu do świadczonych usług</p>
+      <p>Dodatkowym plusem firmy Google jest możliwośc ustawienia wariantu sprzętowego w wersji Custom co pozwala na
+        dobranie sprzętu do swoich potrzeb</p>
+      <p>Firma IBM nie brała udziału w podanym zestawieniu ze względu na brak możliwości zebrania danych przez
+        kalkulator cen on-line</p>
+      <p>Warto także podkreslić, że oferowane warianty związane z konfiguracją sprzętu od firmy Microsoft są bardzo
+        ograniczone i posiadają mała ilość dostępnych gotowych wariantów sprzętowych</p>
+    </article>
+
+  </main>
+  <footer>
     <section class="info">
       <p>Wykonany projekt jest formą pracy inżynierskiej i stanowi jej nieodłączny element.</p>
     </section>
@@ -153,17 +174,18 @@
     </section>
     <p>Copyright &copy; 2023 All rights reserved.</p>
   </footer>
-      
-
-    
 
 
 
-   
-    <script src="main.js"></script>
+
+
+
+
+  <script src="main.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
