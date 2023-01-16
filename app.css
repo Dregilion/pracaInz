@@ -9,6 +9,17 @@ body {
 	background-attachment: fixed; */
 }
 
+.backgr  {
+	background-image: url(/img/banner-logo.PNG);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% auto;
+	color: #fff;
+	text-shadow: 2px 2px 5px #000000;
+	padding: 10%;
+	font-size: 18px;
+}
+
 /* banner dla index.html */
 #banner{
 	background-image: url(/img/banner-logo.PNG);
@@ -58,11 +69,13 @@ h1 {
 }
 h2 {
 	text-align: center;
+	margin-bottom: 5%;
 }
 
 h3 {
 	text-align: center;
 }
+
 article {
 	text-align: center;
 	width: 100%;
@@ -177,6 +190,12 @@ max-height: 220px;
 	h1 {
 		margin-top: 18%;
 	}
+
+	/* .card-carousel{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	} */
 /*
 	main {
 		width: 420px;
