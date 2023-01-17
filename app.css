@@ -221,8 +221,13 @@ max-height: 220px;
 	}
 
 	.rwd-scroll-table{
-		overflow-x:scroll;
+		overflow-x: scroll;
 	}
+
+	/* .rwd-scroll-carousel{
+		display: flex;
+		flex-direction: column;
+	} */
 	/* table thead tbody th col tr td{
 		width: 100%;
 	} */
