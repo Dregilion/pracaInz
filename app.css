@@ -1,5 +1,6 @@
 body {
 	background-color: #e7eee7;
+	margin: 0 auto;
 	/* background: rgb(65, 155, 255);
 	background: linear-gradient(
 		0deg,
@@ -196,7 +197,7 @@ max-height: 220px;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: auto;
+		background-size: auto auto;
 		padding: 10%;
 		opacity: 95%;
 	}
@@ -209,9 +210,16 @@ max-height: 220px;
 		background-repeat: no-repeat;
 		color: #fff;
 		text-shadow: 2px 2px 5px #000000;
-		padding: 10%;
-		font-size: 12px;
+		padding: 5%;
+		font-size: 14px;
 	}
+
+	.rwd-scroll-table{
+		overflow-x:scroll;
+	}
+	/* table thead tbody th col tr td{
+		width: 100%;
+	} */
 	/* .card-carousel{
 		display: flex;
 		flex-wrap: nowrap;
