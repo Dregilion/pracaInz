@@ -167,11 +167,13 @@ ul li a{
 
 .card-carousel .card img{
 max-height: 220px;
+max-width: 100%;
 }
 
 #carouselExampleDark{
  padding: 30px;
 }
+
 
 
 /*animacja dla przejśc */
@@ -223,6 +225,9 @@ max-height: 220px;
 
 	.rwd-scroll-table{
 		overflow-x: scroll;
+	}
+	.card{ 
+		min-height: 35rem;
 	}
 
 	/* .rwd-scroll-carousel{
