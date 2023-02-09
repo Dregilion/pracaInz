@@ -226,9 +226,6 @@ max-width: 100%;
 	.rwd-scroll-table{
 		overflow-x: scroll;
 	}
-	.card{ 
-		min-height: 35rem;
-	}
 
 	/* .rwd-scroll-carousel{
 		display: flex;
