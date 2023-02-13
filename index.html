@@ -36,15 +36,17 @@
               Informacje
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#section-2">Czym są rozwiązania chmurowe?</a></li>
-              <li><a class="dropdown-item" href="#section-3">Zastosowanie rozwiązań chmurowych</a></li>
-              <li><a class="dropdown-item" href="#section-4">Dostawcy i odbiorcy rozwiązań chmurowych</a></li>
+              <li><a class="dropdown-item" href="#section-1">Czym są rozwiązania chmurowe?</a></li>
+              <li><a class="dropdown-item" href="#section-2">Zastosowanie rozwiązań chmurowych</a></li>
+              <li><a class="dropdown-item" href="#section-3">Dostawcy i odbiorcy rozwiązań chmurowych</a></li>
+              <li><a class="dropdown-item" href="#section-4">W jaki sposób są porównywane rozwiązania chmurowe?</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
   <div id="banner">
     <h1>Porównywane rozwiązania chmurowe</h1>
   </div>
@@ -52,190 +54,96 @@
 
   <main>
 
-    <div id="carousel-body">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrappers">
 
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <!-- kontent dla 1 slajdu-->
-
-            <div class="card-carousel">
-
-              <div class="card" style="width: 25rem;">
-                <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
-                <div class="card-body">
-                  <h5 class="card-title">Przechowywanie danych w chmurze</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
-                  <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="/img/Cloud-Storage.png" alt="Cloud Storage Logo">
               </div>
-              <div class="card" style="width: 25rem;">
-                <img src="/img/postgresql-icon.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
-                  <a href="database-postgresql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Przechowywanie danych w chmurze</h5>
+                <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
+                <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
               </div>
-
-              <div class="card" style="width: 25rem;">
-                <img src="/img/MySQL.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
-                  <a href="/database-mysql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
-              </div>
-              <!-- 
-              <div class="card" style="width: 25rem;">
-                <img src="/img/SQL-Server-Logo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">SQL Server w chmurze</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
-                  <a href="/sql-server.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
-              </div> -->
             </div>
 
-          </div>
-
-          <div class="carousel-item" data-bs-interval="3000">
-            <!-- kontent dla 2 slajdu -->
-            <div class="card-carousel">
-              <!-- <div class="card" style="width: 25rem;">
-                <img src="/img/postgresql-icon.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
-                  <a href="database-postgresql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+            <div class="card" >
+              <div class="img-wrapper">
+                <img src="/img/postgresql-icon.jpg" alt="PostgreSQL Logo">
               </div>
-
-              <div class="card" style="width: 25rem;">
-                <img src="/img/MySQL.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
-                  <a href="/database-mysql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
-              </div> -->
-
-              <div class="card" style="width: 25rem;">
-                <img src="/img/SQL-Server-Logo.png" style="width: 25rem; height: 15rem;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">SQL Server w chmurze</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
-                  <a href="/sql-server.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
+                <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
+                <a href="database-postgresql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
               </div>
+            </div>
 
-              <div class="card" style="width: 25rem;">
-                <img src="/img/cloud_repo.png" style="width: 25rem; height: 15rem;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Repozytorium w chmurze</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi korzystania z repozytorium w chmurze</p>
-                  <a href="/cloud-repository.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+            <div class="card" >
+              <div class="img-wrapper">
+                <img src="/img/MySQL.png" alt="MySQL Logo">
               </div>
-
-              <div class="card" style="width: 25rem;">
-                <img src="/img/webappserv.png" style="width: 25rem; height: 15rem;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Web Application Server w chmurze</h5>
-                  <p class="card-text">Porównanie firm świadczących usługi korzystania z Web Application Server w chmurze</p>
-                  <a href="/webapp_services.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
+                <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
+                <a href="/database-mysql.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
               </div>
-
-
             </div>
           </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrappers">
 
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="/img/SQL-Server-Logo.png" alt="SQL Server Logo">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">SQL Server w chmurze </h5>
+                <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
+                <a href="/sql-server.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+              </div>
+            </div>
 
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="/img/cloud_repo.png" alt="Cloud repo icon">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Repozytorium w chmurze</h5>
+                <p class="card-text">Porównanie firm świadczących usługi korzystania z repozytorium w chmurze</p>
+                <a href="/cloud-repository.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+              </div>
+            </div>
 
-          <!-- Przyciski lewo-prawo
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>-->
-
+            <div class="card" >
+              <div class="img-wrapper">
+                <img src="/img/webappserv.png" alt="Web Application Server Icon">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Web Application Server w chmurze </h5>
+                <p class="card-text">Porównanie firm świadczących usługi korzystania z Web Application Server w chmurze</p>
+                <a href="/webapp_services.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
     </div>
-    </div>
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="card" style="width: 18rem;">
-      <img src="/img/Cloud-Storage.png" class="card-img-top" alt="Cloud Storage Image">
-      <div class="card-body">
-        <h5 class="card-title">Przechowywanie danych w chmurze</h5>
-        <p class="card-text">Porównanie firm świadczących usługi przechowywania danych w chmurze</p>
-        <a href="/cloud-storage.html" class="btn btn-primary btn-dark">Sprawdz porówanie</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="/img/MySQL.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bazy danych w chmurze - MySQL</h5>
-        <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych MySQL</p>
-        <a href="/database-mysql.html" class="btn btn-primary btn-secondary">Sprawdz porówanie</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="/img/postgresql-icon.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bazy danych w chmurze - PostgreSQL</h5>
-        <p class="card-text">Porównanie firm świadczących usługi utworzenia bazdy danych PostgreSQL</p>
-        <a href="database-postgresql.html" class="btn btn-primary">Sprawdz porówanie</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="/img/SQL-Server-Logo.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">SQL Server</h5>
-        <p class="card-text">Porównanie firm świadczących usługi postawienie serwera SQL w chmurze</p>
-        <a href="/sql-server.html" class="btn btn-primary">Sprawdz porówanie</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div> -->
-
+    <span id="section-1"></span>
     <article class="reveal">
-      <h2 id="section-2">Czym są rozwiązania chmurowe?</h2>
+      
+      <h2>Czym są rozwiązania chmurowe?</h2>
       <p>Rozwiązania systemowe realizowane w postaci chmury to nowy trend, który dostarcza więcej możliwości w
         działaniu. Wzrost zapotrzebowania na systemy zarządzania projektami, powoduje, że tego typu, nowe rozwiązania
         pojawiają się jeden po drugim na rynku oprogramowania. Tak duża liczba dostępnych rozwiązań powodować może
@@ -300,27 +208,13 @@
 
 
 
-      <!--  <h3>Chmura prywatna</h3>
-      <p>Zwana również wewnętrzną lub korporacyjną – usługodawca zapewnia możliwość dostępu do usługi za pośrednictwem
-        Internetu lub prywatnej sieci wewnętrznej wyłącznie wybranym użytkownikom, czy też w ramach organizacji.
-        Zasoby są wykorzystywane wyłącznie przez tą organizację, co zwiększa bezpieczeństwo, ale również może być
-        konieczne w przypadku takich organizacji jak Banki – dzięki chmurze prywatnej dane są przechowywane zgodnie z
-        wymogami prawa bankowego oraz obostrzeniami KNF.</p>
 
-      <h3>Chmura chybrydowa</h3>
-      <p>Jest to połączenie dwóch poprzednich rodzajów – część danych przechowywana jest w chmurze prywatnej, a w
-        momencie większego zapotrzebowania na usługi lub wynikającego z modelu biznesowego można skorzystać z chmury
-        publicznej. Dodatkowo w tym modelu można wykorzystać chmurę publiczną do przetwarzania danych o niższych
-        wymogach bezpieczeństwa, zaś dane wrażliwe lub krytyczne operacje biznesowe w ramach chmury prywatnej.</p>
-
-      <h3>Chmura społecznościowa</h3>
-      <p>W tym modelu zasoby udostępniane są wyłącznie pomiędzy organizacjami, takimi jak instytucje rządowe</p>-->
     </article>
   </main>
-
+  <span id="section-2"></span>
   <div class="backgr">
 
-    <h2 id="section-3" class="reveal">Zastosowanie rozwiązań chmurowych</h2>
+    <h2 class="reveal">Zastosowanie rozwiązań chmurowych</h2>
     <p class="reveal">Wykorzystanie Cloud Computing znacznie ułatwia prowadzenie firmy. Specjaliści widzą w niej
       nadzieje na
       bezpieczniejsze przechowywanie danych, wydajniejsze przekazywanie informacji i łatwiejszą obsługę, znalezienie
@@ -336,9 +230,10 @@
       elektrycznej.</p>
   </div>
 
+  <span id="section-3"></span>
   <main>
     <article class="reveal">
-      <h2 id="section-4">Dostawcy i odbiorcy rozwiązań chmurowych</h2>
+      <h2>Dostawcy i odbiorcy rozwiązań chmurowych</h2>
 
       <p>Czołowymi dostawcami w sprawie rozwiązań chmurowych są firmy AWS Amazon Web Service (w skrócie AWS),
         Microsoft Azure oraz Google Cloud Platform (w skrócie GCP).</p>
@@ -396,27 +291,24 @@
           kosztów związanych z utrzymaniem infrastruktury serwerowej, automatycznymi zapisami danych oraz możliwością
           współpracy na jednym dokumencie w tym samym czasie.</p>
       </div>
-
-      <!-- 
-      <p>Firma AWS jako jeden z pierwszych dostawców w 2006 roku stworzyła narzędzie odpowiadające za szereg
-        zróżnicowanych usług związanych z zagadnieniami chmurowymi w których w skład wchodzą narzędzia takie jak
-        Amazon Storage Service oraz Amazon Relational Database Service. </p>
-
-      <p>Kolejną firmą posiadająca znaczny udział w rynku usług chmurowych jest firma Microsoft Azure, która powstała
-        w 2010 roku. Ważnym atutem firmy Microsoft są narzędzia, które zyskały ogromną ilość klientów są Resource
-        Menager, Azure Autoscalling oraz Cloud Services.</p>
-
-      <p>Trzecią firma z kolei, która uplasowała się na szczycie rankingów pod względem popularności jest firma Google
-        Cloud Platform, która swoje pierwsze rozwiązania wprowadziła w 2008 roku. Najważniejszymi usługami
-        proponowanymi przez GCP są App Engine, Cloud Storage oraz Google Cloud Compute</p>
-
-
-      <p>Firma Synergy Research Group przeprowadziła badanie w drugim kwartale 2022 roku ukazujące udział firm
-        sprzedających rozwiązania chmurowe.</p>
-
-      
-        -->
     </article>
+    <span id="section-4"></span>
+    <article class="reveal">
+      <h2>W jaki sposób są porównywane rozwiązania chmurowe?</h2>
+      <p>Rozwiązania chmurowe, które porównujemy na naszej stronie są przedstawianie w formie tabelarycznej. Użyte dane do stworzenia tabel porównywująćych pobierane są z oficjalnych kalkulatorów zamieszczonych na stronach producentów roziwązań chmurowych. </p>
+      <p>Wszystkie porównywane rozwiązania chmurowe były porównywane w sposób jak najbardzieje zbliżony względem oferowanych wariantów sprzętowych jak i lokalizacji. W każdym porównaniu była wybierana lokalizacja Frankfur w celu z przyczyny braku możliwości ustawienia lokalizacji Warszawy we wszystkich kalkulatorach</p>
+      
+      <p>Poniżej przedstawione są linki do stron firm posiadających kalkulatory on-line cen rozwiązań chmurowych:</p>
+      <ul id="calculator-links">
+        <li><a href="https://cloud.google.com/products/calculator ">Kalkulator firmy Google</a></li>
+        <li><a href="https://calculator.aws/#/addService">Kalkulator firmy Amazon</a></li>
+        <li><a href="https://cloud.ibm.com/catalog">Kalkulator firmy IBM</a></li>
+        <li><a href="https://azure.microsoft.com/en-us/pricing/calculator/">Kalkulator firmy Microsoft</a></li>
+      </ul>
+      
+    
+      
+     </article>
 
     <button id="to-top" title="Przewiń na początek strony">
       <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
