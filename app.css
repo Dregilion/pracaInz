@@ -184,7 +184,6 @@ ul li a{
 
 
 
-
 /*animacja dla przejśc */
 
 .reveal{
@@ -211,7 +210,10 @@ ul li a{
 		h1 {
 			margin-top: 18%;
 		}
-	
+		h5{
+			font-size: 1.10rem;
+		}
+		
 		#banner{
 			background-image: url(/img/banner-logo.PNG);
 			background-attachment: fixed;
